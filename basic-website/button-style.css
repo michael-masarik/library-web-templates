@@ -1,8 +1,4 @@
-:root{
-	--link-color: #000 !important;
-	--button-background: var(--navbar-background-color) !important;
-	--button-text-color: var(--navbar-text-color) !important;
-}
+
 /* Sets the color of button callout text */
 .notion-callout.bg-blue-light .notion-link{
     color: var(--button-text-color) !important;
