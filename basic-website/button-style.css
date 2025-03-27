@@ -1,0 +1,13 @@
+:root{
+	--link-color: #000 !important;
+	--button-background: #CB912F !important;
+	--button-text-color: #fff !important;
+}
+/* Sets the color of button callout text */
+.notion-callout.bg-blue-light .notion-link{
+    color: var(--button-text-color) !important;
+    opacity: 1;
+    text-decoration: none;
+    text-align: center !important;
+    display: block;
+}

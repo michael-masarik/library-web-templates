@@ -1,0 +1,4 @@
+/* Hide Brown toggles */
+.notion-toggle.bg-brown { 
+    display: none !important; 
+}
