@@ -1,0 +1,17 @@
+@import url("/base.css");
+@import url("/button-style.css");
+/*The following came from Super.so. It is great! Thanks to super for it.*/
+
+:root{
+    --picker-border-radius: 8px!important;
+    /* Active colors */
+    --picker-active-bg-color: var(--navbar-background-color)!important;
+    --picker-active-text-color: var(--navbar-text-color)!important;
+    /* Default colors */
+    --picker-border-color: rgb(233, 233, 233)!important;
+    --picker-text-color: var(--navbar-text-color)!important;
+    /* Hover colors */
+    --picker-hover-bg-color: color-mix(in srgb, var(--navbar-background-color) 80%, black)!important;
+    --picker-hover-text-color: color-mix(in srgb, var(--navbar-text-color) 80%, black)!important;
+    --picker-hover-border-color: rgb(233, 233, 233)!important;
+} 
